@@ -1,0 +1,38 @@
+{
+    "schema": [
+      {
+        "name": "user_id",
+        "type": "categorical",
+        "cardinality": 10000,
+        "int_domain": {"min": 1, "max": 10000},
+        "is_list": false
+      },
+      {
+        "name": "item_id",
+        "type": "categorical",
+        "cardinality": 50000,
+        "int_domain": {"min": 1, "max": 50000},
+        "is_list": false
+      },
+      {
+        "name": "timestamp",
+        "type": "continuous",
+        "is_list": false
+      },
+      {
+        "name": "session_id",
+        "type": "categorical",
+        "cardinality": 1000000,
+        "int_domain": {"min": 1, "max": 1000000},
+        "is_list": false
+      },
+      {
+        "name": "category",
+        "type": "categorical",
+        "cardinality": 100,
+        "int_domain": {"min": 1, "max": 100},
+        "is_list": false
+      }
+    ]
+  }
+  
